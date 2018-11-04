@@ -1,0 +1,1558 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1322184,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "32968",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "clopidogrel",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[AL-Thesis] Clopidogrel",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40757050,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37226",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Revascularization, endovascular, open or percutaneous, femoral, popliteal artery(s), unilateral; with transluminal stent placement(s), includes angioplasty within the same vessel, when performed",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40756927,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37221",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Revascularization, endovascular, open or percutaneous, iliac artery, unilateral, initial vessel; with transluminal stent placement(s), includes angioplasty within the same vessel, when performed",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40757135,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37230",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Revascularization, endovascular, open or percutaneous, tibial, peroneal artery, unilateral, initial vessel; with transluminal stent placement(s), includes angioplasty within the same vessel, when performed",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[AL-Thesis] PTA Procedures with Stent",
+      "id": 20
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40756872,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37225",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Revascularization, endovascular, open or percutaneous, femoral, popliteal artery(s), unilateral; with atherectomy, includes angioplasty within the same vessel, when performed",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40757057,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37229",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Revascularization, endovascular, open or percutaneous, tibial, peroneal artery, unilateral, initial vessel; with atherectomy, includes angioplasty within the same vessel, when performed",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40756966,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0238T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Transluminal peripheral atherectomy, open or percutaneous, including radiological supervision and interpretation; iliac artery, each vessel",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[AL-Thesis] PTA Procedures with Atherectomy",
+      "id": 21
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1350310,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "21107",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "cilostazol",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "cilostazol",
+      "id": 28
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 318443,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72092001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Arteriosclerotic vascular disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312934,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "81817003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atherosclerosis of aorta",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 195834,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "45281005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atherosclerosis of renal artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 316437,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "55382008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral atherosclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317576,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53741008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary arteriosclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40481919,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "443502000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary atherosclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321882,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "39823006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Generalized atherosclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317309,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "399957001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Peripheral arterial occlusive disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321052,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "400047006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Peripheral vascular disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[AL-Thesis] PAD Conditions",
+      "id": 29
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35506609,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "10012601",
+          "VOCABULARY_ID": "MedDRA",
+          "CONCEPT_NAME": "Diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "PT",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Diabetes mellitus classification",
+      "id": 32
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1112807,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1191",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "Aspirin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "aspirin",
+      "id": 34
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601860,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10AA05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601859,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10AA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601857,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10AA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601863,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10AA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601858,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10AA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601862,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10AA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601856,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10AA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Statins ATC",
+      "id": 35
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315558,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "51274000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atherosclerosis of arteries of the extremities",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40483538,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "442439008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atherosclerosis of bypass graft of limb",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43020432,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "145891000119104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atherosclerosis of native arteries of the extremities",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46270348,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "284891000119106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ulcer of ankle due to atherosclerosis of native artery of limb",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46270350,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "284901000119105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ulcer of calf due to atherosclerosis of native artery of limb",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Peripheral artery disease (PAD) [validated]",
+      "id": 36
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 442774,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "63491006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Intermittent claudication",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Intermittent claudication",
+      "id": 37
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4284964,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6832004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4081578,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "24088005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary artery atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4106556,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "29843007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary atherectomy by laser",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4194238,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "392031002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Endarterectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42872521,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "450512004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Endarterectomy of axillary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44512093,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "L37.4",
+            "VOCABULARY_ID": "OPCS4",
+            "CONCEPT_NAME": "Endarterectomy of subclavian artery NEC",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731055,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CQ3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Left Anterior Tibial Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731043,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CL3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Left Femoral Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2735010,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "06CN3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Left Femoral Vein, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731067,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CU3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Left Peroneal Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731049,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CN3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Left Popliteal Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731061,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CS3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Left Posterior Tibial Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731052,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CP3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Right Anterior Tibial Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731040,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CK3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Right Femoral Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2735007,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "06CM3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Right Femoral Vein, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731064,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CT3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Right Peroneal Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731046,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CM3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Right Popliteal Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2731058,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "04CR3ZZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Extirpation of Matter from Right Posterior Tibial Artery, Percutaneous Approach",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46271741,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "709981002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fluoroscopy guided coronary artery atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4119874,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "257762006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mechanical endarterectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40756811,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "17.53",
+            "VOCABULARY_ID": "ICD9Proc",
+            "CONCEPT_NAME": "Percutaneous atherectomy of extracranial vessel(s)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4337739,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232727003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous directional coronary atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4336469,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232729000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous high speed rotational coronary atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4337740,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232728008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous low speed rotational coronary atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44511138,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "K50.4",
+            "VOCABULARY_ID": "OPCS4",
+            "CONCEPT_NAME": "Percutaneous transluminal atherectomy of coronary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43527997,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "92925",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Percutaneous transluminal coronary atherectomy, with coronary angioplasty when performed; each additional branch of a major coronary artery (List separately in addition to code for primary procedure)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43527996,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "92924",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Percutaneous transluminal coronary atherectomy, with coronary angioplasty when performed; single major coronary artery or branch",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43533353,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9602",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Percutaneous transluminal coronary atherectomy, with drug eluting intracoronary stent, with coronary angioplasty when performed; single major coronary artery or branch",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43533248,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9603",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Percutaneous transluminal coronary atherectomy, with drug-eluting intracoronary stent, with coronary angioplasty when performed; each additional branch of a major coronary artery (list separately in addition to code for primary procedure)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44511135,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "K50.1",
+            "VOCABULARY_ID": "OPCS4",
+            "CONCEPT_NAME": "Percutaneous transluminal laser coronary angioplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4106321,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "257763001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Radiofrequency endarterectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4244381,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38260008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Thromboendarterectomy of abdominal artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40756789,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "17.55",
+            "VOCABULARY_ID": "ICD9Proc",
+            "CONCEPT_NAME": "Transluminal coronary atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4121743,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "257761004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ultrasonic endarterectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[AL-Thesis] PTA Procedures with Atherectomy",
+      "id": 38
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "EndDate",
+    "Offset": 0
+  }},
+  "CensoringCriteria": [{"DrugEra": {
+    "EraStartDate": null,
+    "CorrelatedCriteria": null,
+    "OccurrenceCount": null,
+    "AgeAtStart": null,
+    "GapDays": null,
+    "CodesetId": 28,
+    "AgeAtEnd": null,
+    "First": null,
+    "Gender": null,
+    "EraLength": null,
+    "EraEndDate": null
+  }}],
+  "Title": null,
+  "AdditionalCriteria": {
+    "CriteriaList": [
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": null
+        },
+        "EndWindow": null,
+        "Criteria": {"ConditionOccurrence": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "ConditionTypeExclude": false,
+          "CodesetId": 32,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "VisitType": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "ConditionType": null,
+          "ConditionSourceConcept": null,
+          "StopReason": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 0,
+          "IsDistinct": false,
+          "Count": 0
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": null
+        },
+        "EndWindow": null,
+        "Criteria": {"DrugEra": {
+          "EraStartDate": null,
+          "CorrelatedCriteria": null,
+          "OccurrenceCount": null,
+          "AgeAtStart": null,
+          "GapDays": null,
+          "CodesetId": 28,
+          "AgeAtEnd": null,
+          "First": null,
+          "Gender": null,
+          "EraLength": null,
+          "EraEndDate": null
+        }},
+        "Occurrence": {
+          "Type": 0,
+          "IsDistinct": false,
+          "Count": 0
+        }
+      }
+    ],
+    "Type": "ALL",
+    "DemographicCriteriaList": [],
+    "Groups": [{
+      "CriteriaList": [
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": null,
+                    "Coeff": -1
+                  },
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": null
+                },
+                "EndWindow": null,
+                "Criteria": {"ConditionEra": {
+                  "EraStartDate": null,
+                  "CorrelatedCriteria": null,
+                  "OccurrenceCount": null,
+                  "AgeAtStart": null,
+                  "CodesetId": 29,
+                  "AgeAtEnd": null,
+                  "First": null,
+                  "Gender": null,
+                  "EraLength": null,
+                  "EraEndDate": null
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": [],
+              "Count": null
+            },
+            "DrugSourceConcept": null,
+            "CodesetId": 35,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        },
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"DrugEra": {
+            "EraStartDate": null,
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": null,
+                    "Coeff": -1
+                  },
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": null
+                },
+                "EndWindow": null,
+                "Criteria": {"ConditionEra": {
+                  "EraStartDate": null,
+                  "CorrelatedCriteria": null,
+                  "OccurrenceCount": null,
+                  "AgeAtStart": null,
+                  "CodesetId": 29,
+                  "AgeAtEnd": null,
+                  "First": null,
+                  "Gender": null,
+                  "EraLength": null,
+                  "EraEndDate": null
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": [],
+              "Count": null
+            },
+            "OccurrenceCount": null,
+            "AgeAtStart": null,
+            "GapDays": null,
+            "CodesetId": 1,
+            "AgeAtEnd": null,
+            "First": null,
+            "Gender": null,
+            "EraLength": null,
+            "EraEndDate": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        },
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"DrugEra": {
+            "EraStartDate": null,
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": null,
+                    "Coeff": -1
+                  },
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": null
+                },
+                "EndWindow": null,
+                "Criteria": {"ConditionEra": {
+                  "EraStartDate": null,
+                  "CorrelatedCriteria": null,
+                  "OccurrenceCount": null,
+                  "AgeAtStart": null,
+                  "CodesetId": 29,
+                  "AgeAtEnd": null,
+                  "First": null,
+                  "Gender": null,
+                  "EraLength": null,
+                  "EraEndDate": null
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": [],
+              "Count": null
+            },
+            "OccurrenceCount": null,
+            "AgeAtStart": null,
+            "GapDays": null,
+            "CodesetId": 34,
+            "AgeAtEnd": null,
+            "First": null,
+            "Gender": null,
+            "EraLength": null,
+            "EraEndDate": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }
+      ],
+      "Type": "ANY",
+      "DemographicCriteriaList": [],
+      "Groups": [],
+      "Count": null
+    }],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ProcedureOccurrence": {
+      "ProcedureType": null,
+      "CorrelatedCriteria": null,
+      "CodesetId": 38,
+      "ProcedureSourceConcept": null,
+      "Quantity": null,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "ProcedureTypeExclude": false,
+      "VisitType": [{
+        "INVALID_REASON_CAPTION": "Unknown",
+        "CONCEPT_ID": 9202,
+        "STANDARD_CONCEPT": null,
+        "CONCEPT_CODE": "OP",
+        "VOCABULARY_ID": "Visit",
+        "CONCEPT_NAME": "Outpatient Visit",
+        "DOMAIN_ID": "Visit",
+        "STANDARD_CONCEPT_CAPTION": "Unknown",
+        "CONCEPT_CLASS_ID": null,
+        "INVALID_REASON": null
+      }],
+      "First": true,
+      "OccurrenceStartDate": {
+        "Op": "bt",
+        "Extent": "2018-04-30",
+        "Value": "2011-01-01"
+      },
+      "Modifier": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 180
+    }
+  }
+}

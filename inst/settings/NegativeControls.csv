@@ -1,0 +1,263 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+7947,7948,4171019,Abdominal visceral abscess,outcome
+7947,7948,4102856,Abnormality of atrial septum,outcome
+7947,7948,40490966,Abnormality of pulmonary valve,outcome
+7947,7948,141095,Acne,outcome
+7947,7948,4227594,Acne vulgaris,outcome
+7947,7948,30133,Acute laryngitis,outcome
+7947,7948,4173027,Acute laryngitis and/or tracheitis,outcome
+7947,7948,4033294,Acute mucositis,outcome
+7947,7948,4148204,Acute tracheobronchitis,outcome
+7947,7948,436677,Adjustment disorder,outcome
+7947,7948,375519,Alcohol withdrawal syndrome,outcome
+7947,7948,376383,Alcohol-induced organic mental disorder,outcome
+7947,7948,256439,Allergic rhinitis due to pollen,outcome
+7947,7948,440424,Aphasia,outcome
+7947,7948,44783158,Arthritis of pelvis,outcome
+7947,7948,378424,Astigmatism,outcome
+7947,7948,134118,Atrophic condition of skin,outcome
+7947,7948,374923,Bell's palsy,outcome
+7947,7948,4113639,Benign genital neoplasm,outcome
+7947,7948,201817,Benign neoplasm of female genital organ,outcome
+7947,7948,4242498,Benign neoplasm of pelvis,outcome
+7947,7948,4114223,Benign tumor of head and neck,outcome
+7947,7948,4182455,Body fat finding,outcome
+7947,7948,80509,Bone cyst,outcome
+7947,7948,4082039,Borreliosis,outcome
+7947,7948,134765,Cachexia,outcome
+7947,7948,4172458,Candidiasis of skin,outcome
+7947,7948,81250,Carcinoma in situ of breast,outcome
+7947,7948,381581,Chalazion,outcome
+7947,7948,4189855,Chronic arthropathy,outcome
+7947,7948,198075,Condyloma acuminatum,outcome
+7947,7948,4161410,Cyst of breast,outcome
+7947,7948,379822,Cyst of eyelid,outcome
+7947,7948,201061,Diaphragmatic hernia,outcome
+7947,7948,4198086,Diffuse spasm,outcome
+7947,7948,134681,Diffuse spasm of esophagus,outcome
+7947,7948,4311399,Dilatation of intestine,outcome
+7947,7948,4253013,Disease due to Gram-negative cocci,outcome
+7947,7948,4147672,Disease due to Papilloma virus,outcome
+7947,7948,4248392,Disease due to Papillomaviridae,outcome
+7947,7948,4190076,Disorder of oculomotor system,outcome
+7947,7948,4266661,Disorder of perianal skin,outcome
+7947,7948,4271029,Disorder of skin of upper limb,outcome
+7947,7948,4090616,Disorder of soft tissue of upper limb,outcome
+7947,7948,4288085,Disorder of umbilicus,outcome
+7947,7948,4270571,Distribution of body fat loss - finding,outcome
+7947,7948,441260,Drug withdrawal,outcome
+7947,7948,433440,Dysthymia,outcome
+7947,7948,4090401,Ear canal finding,outcome
+7947,7948,437986,Failure to thrive,outcome
+7947,7948,4116798,Finding of general observation of appearance,outcome
+7947,7948,4095940,Finding of pattern of menstrual cycle,outcome
+7947,7948,4302801,Finding of sacroiliac joint,outcome
+7947,7948,4091208,Foreskin finding,outcome
+7947,7948,4278447,General form of body - finding,outcome
+7947,7948,4292391,Hand and/or foot eczema,outcome
+7947,7948,4163735,Hemochromatosis,outcome
+7947,7948,441788,Human papilloma virus infection,outcome
+7947,7948,76737,Hydrocele,outcome
+7947,7948,376415,Hypermetropia,outcome
+7947,7948,40481970,Infection of bone of pelvic region and/or femur,outcome
+7947,7948,444078,Inflammation of cervix,outcome
+7947,7948,4082014,Inflammation of ear canal,outcome
+7947,7948,4208390,Inflammation of sacroiliac joint,outcome
+7947,7948,196162,Inflammatory disease of the uterus,outcome
+7947,7948,139099,Ingrowing nail,outcome
+7947,7948,4092885,Inguinal canal finding,outcome
+7947,7948,4288544,Inguinal hernia,outcome
+7947,7948,444191,Injury of face,outcome
+7947,7948,44783028,Injury of shoulder and upper arm,outcome
+7947,7948,4154163,Jaw injury,outcome
+7947,7948,4100932,Knee joint finding,outcome
+7947,7948,74052,Labyrinthitis,outcome
+7947,7948,4199395,Lesion of bronchus,outcome
+7947,7948,4204991,Lichen simplex chronicus,outcome
+7947,7948,4086984,Loss of body fat - finding,outcome
+7947,7948,4086687,Lump on extremities,outcome
+7947,7948,440638,Lyme disease,outcome
+7947,7948,4178979,Malignant tumor of neck,outcome
+7947,7948,4079722,Mechanical joint disorder,outcome
+7947,7948,439045,Mediastinitis,outcome
+7947,7948,4186461,Medication-induced movement disorder,outcome
+7947,7948,4087808,Meibomian gland finding,outcome
+7947,7948,40483111,Mental disorder due to drug,outcome
+7947,7948,4035007,Metritis,outcome
+7947,7948,141216,Molluscum contagiosum infection,outcome
+7947,7948,437233,Multiple myeloma,outcome
+7947,7948,4130037,Neoplasm of cerebrum,outcome
+7947,7948,4129880,Neoplasm of sigmoid colon,outcome
+7947,7948,140357,Neoplasm of uncertain behavior of endocrine gland,outcome
+7947,7948,4171549,Nodular goiter,outcome
+7947,7948,42872416,Non-allergic rhinitis,outcome
+7947,7948,4051476,Non-infective non-allergic rhinitis,outcome
+7947,7948,136661,Non-toxic nodular goiter,outcome
+7947,7948,134898,Non-toxic uninodular goiter,outcome
+7947,7948,4215978,Onychomycosis,outcome
+7947,7948,4134605,Optic disc disorder,outcome
+7947,7948,380731,Otitis externa,outcome
+7947,7948,372328,Otitis media,outcome
+7947,7948,378160,Otorrhea,outcome
+7947,7948,4304010,Phobic disorder,outcome
+7947,7948,134870,Pityriasis versicolor,outcome
+7947,7948,373478,Presbyopia,outcome
+7947,7948,442131,Primary malignant neoplasm of head,outcome
+7947,7948,194997,Prostatitis,outcome
+7947,7948,200169,Pruritus ani,outcome
+7947,7948,375504,Psychoactive substance-induced organic mental disorder,outcome
+7947,7948,4001453,Sacroiliac disorder,outcome
+7947,7948,4280726,Seasonal allergic rhinitis,outcome
+7947,7948,141825,Simple goiter,outcome
+7947,7948,4033781,Site-specific eczema,outcome
+7947,7948,434630,Sleep-wake schedule disorder,outcome
+7947,7948,4083779,Specific body function causing pain,outcome
+7947,7948,200527,Splenomegaly,outcome
+7947,7948,4268622,Stricture of esophagus,outcome
+7947,7948,74396,Temporomandibular joint disorder,outcome
+7947,7948,134461,Tietze's disease,outcome
+7947,7948,440814,Torticollis,outcome
+7947,7948,435140,Toxic effect of alcohol,outcome
+7947,7948,4312497,Toxic effect of heavy metal,outcome
+7947,7948,437754,Toxic effect of metal,outcome
+7947,7948,373470,Toxic polyneuropathy,outcome
+7947,7948,379801,Trigeminal neuralgia,outcome
+7947,7948,4096860,Umbilicus finding,outcome
+7947,7948,4030055,Uninodular goiter,outcome
+7947,7948,4082798,Urinary tract pain,outcome
+7947,7948,4305500,Vasomotor rhinitis,outcome
+7947,7948,140641,Verruca vulgaris,outcome
+7947,7948,133551,Vesicular eczema of hands and/or feet,outcome
+7947,7948,4207187,Viral lower respiratory infection,outcome
+7947,7948,261326,Viral pneumonia,outcome
+7946,7948,4171019,Abdominal visceral abscess,outcome
+7946,7948,4102856,Abnormality of atrial septum,outcome
+7946,7948,40490966,Abnormality of pulmonary valve,outcome
+7946,7948,141095,Acne,outcome
+7946,7948,4227594,Acne vulgaris,outcome
+7946,7948,30133,Acute laryngitis,outcome
+7946,7948,4173027,Acute laryngitis and/or tracheitis,outcome
+7946,7948,4033294,Acute mucositis,outcome
+7946,7948,4148204,Acute tracheobronchitis,outcome
+7946,7948,436677,Adjustment disorder,outcome
+7946,7948,375519,Alcohol withdrawal syndrome,outcome
+7946,7948,376383,Alcohol-induced organic mental disorder,outcome
+7946,7948,256439,Allergic rhinitis due to pollen,outcome
+7946,7948,440424,Aphasia,outcome
+7946,7948,44783158,Arthritis of pelvis,outcome
+7946,7948,378424,Astigmatism,outcome
+7946,7948,134118,Atrophic condition of skin,outcome
+7946,7948,374923,Bell's palsy,outcome
+7946,7948,4113639,Benign genital neoplasm,outcome
+7946,7948,201817,Benign neoplasm of female genital organ,outcome
+7946,7948,4242498,Benign neoplasm of pelvis,outcome
+7946,7948,4114223,Benign tumor of head and neck,outcome
+7946,7948,4182455,Body fat finding,outcome
+7946,7948,80509,Bone cyst,outcome
+7946,7948,4082039,Borreliosis,outcome
+7946,7948,134765,Cachexia,outcome
+7946,7948,4172458,Candidiasis of skin,outcome
+7946,7948,81250,Carcinoma in situ of breast,outcome
+7946,7948,381581,Chalazion,outcome
+7946,7948,4189855,Chronic arthropathy,outcome
+7946,7948,198075,Condyloma acuminatum,outcome
+7946,7948,4161410,Cyst of breast,outcome
+7946,7948,379822,Cyst of eyelid,outcome
+7946,7948,201061,Diaphragmatic hernia,outcome
+7946,7948,4198086,Diffuse spasm,outcome
+7946,7948,134681,Diffuse spasm of esophagus,outcome
+7946,7948,4311399,Dilatation of intestine,outcome
+7946,7948,4253013,Disease due to Gram-negative cocci,outcome
+7946,7948,4147672,Disease due to Papilloma virus,outcome
+7946,7948,4248392,Disease due to Papillomaviridae,outcome
+7946,7948,4190076,Disorder of oculomotor system,outcome
+7946,7948,4266661,Disorder of perianal skin,outcome
+7946,7948,4271029,Disorder of skin of upper limb,outcome
+7946,7948,4090616,Disorder of soft tissue of upper limb,outcome
+7946,7948,4288085,Disorder of umbilicus,outcome
+7946,7948,4270571,Distribution of body fat loss - finding,outcome
+7946,7948,441260,Drug withdrawal,outcome
+7946,7948,433440,Dysthymia,outcome
+7946,7948,4090401,Ear canal finding,outcome
+7946,7948,437986,Failure to thrive,outcome
+7946,7948,4116798,Finding of general observation of appearance,outcome
+7946,7948,4095940,Finding of pattern of menstrual cycle,outcome
+7946,7948,4302801,Finding of sacroiliac joint,outcome
+7946,7948,4091208,Foreskin finding,outcome
+7946,7948,4278447,General form of body - finding,outcome
+7946,7948,4292391,Hand and/or foot eczema,outcome
+7946,7948,4163735,Hemochromatosis,outcome
+7946,7948,441788,Human papilloma virus infection,outcome
+7946,7948,76737,Hydrocele,outcome
+7946,7948,376415,Hypermetropia,outcome
+7946,7948,40481970,Infection of bone of pelvic region and/or femur,outcome
+7946,7948,444078,Inflammation of cervix,outcome
+7946,7948,4082014,Inflammation of ear canal,outcome
+7946,7948,4208390,Inflammation of sacroiliac joint,outcome
+7946,7948,196162,Inflammatory disease of the uterus,outcome
+7946,7948,139099,Ingrowing nail,outcome
+7946,7948,4092885,Inguinal canal finding,outcome
+7946,7948,4288544,Inguinal hernia,outcome
+7946,7948,444191,Injury of face,outcome
+7946,7948,44783028,Injury of shoulder and upper arm,outcome
+7946,7948,4154163,Jaw injury,outcome
+7946,7948,4100932,Knee joint finding,outcome
+7946,7948,74052,Labyrinthitis,outcome
+7946,7948,4199395,Lesion of bronchus,outcome
+7946,7948,4204991,Lichen simplex chronicus,outcome
+7946,7948,4086984,Loss of body fat - finding,outcome
+7946,7948,4086687,Lump on extremities,outcome
+7946,7948,440638,Lyme disease,outcome
+7946,7948,4178979,Malignant tumor of neck,outcome
+7946,7948,4079722,Mechanical joint disorder,outcome
+7946,7948,439045,Mediastinitis,outcome
+7946,7948,4186461,Medication-induced movement disorder,outcome
+7946,7948,4087808,Meibomian gland finding,outcome
+7946,7948,40483111,Mental disorder due to drug,outcome
+7946,7948,4035007,Metritis,outcome
+7946,7948,141216,Molluscum contagiosum infection,outcome
+7946,7948,437233,Multiple myeloma,outcome
+7946,7948,4130037,Neoplasm of cerebrum,outcome
+7946,7948,4129880,Neoplasm of sigmoid colon,outcome
+7946,7948,140357,Neoplasm of uncertain behavior of endocrine gland,outcome
+7946,7948,4171549,Nodular goiter,outcome
+7946,7948,42872416,Non-allergic rhinitis,outcome
+7946,7948,4051476,Non-infective non-allergic rhinitis,outcome
+7946,7948,136661,Non-toxic nodular goiter,outcome
+7946,7948,134898,Non-toxic uninodular goiter,outcome
+7946,7948,4215978,Onychomycosis,outcome
+7946,7948,4134605,Optic disc disorder,outcome
+7946,7948,380731,Otitis externa,outcome
+7946,7948,372328,Otitis media,outcome
+7946,7948,378160,Otorrhea,outcome
+7946,7948,4304010,Phobic disorder,outcome
+7946,7948,134870,Pityriasis versicolor,outcome
+7946,7948,373478,Presbyopia,outcome
+7946,7948,442131,Primary malignant neoplasm of head,outcome
+7946,7948,194997,Prostatitis,outcome
+7946,7948,200169,Pruritus ani,outcome
+7946,7948,375504,Psychoactive substance-induced organic mental disorder,outcome
+7946,7948,4001453,Sacroiliac disorder,outcome
+7946,7948,4280726,Seasonal allergic rhinitis,outcome
+7946,7948,141825,Simple goiter,outcome
+7946,7948,4033781,Site-specific eczema,outcome
+7946,7948,434630,Sleep-wake schedule disorder,outcome
+7946,7948,4083779,Specific body function causing pain,outcome
+7946,7948,200527,Splenomegaly,outcome
+7946,7948,4268622,Stricture of esophagus,outcome
+7946,7948,74396,Temporomandibular joint disorder,outcome
+7946,7948,134461,Tietze's disease,outcome
+7946,7948,440814,Torticollis,outcome
+7946,7948,435140,Toxic effect of alcohol,outcome
+7946,7948,4312497,Toxic effect of heavy metal,outcome
+7946,7948,437754,Toxic effect of metal,outcome
+7946,7948,373470,Toxic polyneuropathy,outcome
+7946,7948,379801,Trigeminal neuralgia,outcome
+7946,7948,4096860,Umbilicus finding,outcome
+7946,7948,4030055,Uninodular goiter,outcome
+7946,7948,4082798,Urinary tract pain,outcome
+7946,7948,4305500,Vasomotor rhinitis,outcome
+7946,7948,140641,Verruca vulgaris,outcome
+7946,7948,133551,Vesicular eczema of hands and/or feet,outcome
+7946,7948,4207187,Viral lower respiratory infection,outcome
+7946,7948,261326,Viral pneumonia,outcome
