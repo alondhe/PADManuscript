@@ -22,6 +22,7 @@ rm(list = camelCaseNames)
 loadFile <- function(file) {
   # file = files[13]
   tableName <- gsub("(_t[0-9]+_c[0-9]+)|(_)[^_]*\\.rds", "", file) 
+  print(tableName)
   camelCaseName <- SqlRender::snakeCaseToCamelCase(tableName)
   if (!(tableName %in% splittableTables)) {
     newData <- readRDS(file.path(dataFolder, file))
@@ -36,6 +37,20 @@ loadFile <- function(file) {
 }
 lapply(files, loadFile)
 
+# for (file in files) {
+# 
+#   tableName <- gsub("(_t[0-9]+_c[0-9]+)|(_)[^_]*\\.rds", "", file) 
+#   camelCaseName <- SqlRender::snakeCaseToCamelCase(tableName)
+#   if (!(tableName %in% splittableTables)) {
+#     newData <- readRDS(file.path(dataFolder, file))
+#     colnames(newData) <- SqlRender::snakeCaseToCamelCase(colnames(newData))
+#     if (exists(camelCaseName, envir = .GlobalEnv)) {
+#       existingData <- get(camelCaseName, envir = .GlobalEnv)
+#       newData <- rbind(existingData, newData)
+#     }
+#     assign(camelCaseName, newData, envir = .GlobalEnv)
+#   }
+# }
 tcos <- unique(cohortMethodResult[, c("targetId", "comparatorId", "outcomeId")])
 tcos <- tcos[tcos$outcomeId %in% outcomeOfInterest$outcomeId, ]
                

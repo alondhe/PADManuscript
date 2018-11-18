@@ -145,8 +145,13 @@ createTcos <- function(outputFolder) {
     outcomeIds <- as.character(tcosOfInterest$outcomeIds[tcosOfInterest$targetId == targetId & tcosOfInterest$comparatorId == comparatorId])
     outcomeIds <- as.numeric(strsplit(outcomeIds, split = ";")[[1]])
     outcomeIds <- c(outcomeIds, allControls$outcomeId[allControls$targetId == targetId & allControls$comparatorId == comparatorId])
-    excludeConceptIds <- as.character(tcosOfInterest$excludedCovariateConceptIds[tcosOfInterest$targetId == targetId & tcosOfInterest$comparatorId == comparatorId])
-    excludeConceptIds <- as.numeric(strsplit(excludeConceptIds, split = ";")[[1]])
+    # excludeConceptIds <- as.character(tcosOfInterest$excludedCovariateConceptIds[tcosOfInterest$targetId == targetId & tcosOfInterest$comparatorId == comparatorId])
+    # excludeConceptIds <- as.numeric(strsplit(excludeConceptIds, split = ";")[[1]])
+    # if (is.na(excludeConceptIds)) {
+    #   excludeConceptIds <- c()
+    # }
+    
+    excludeConceptIds <- getExcludedCovariateConcepts()
     tco <- CohortMethod::createTargetComparatorOutcomes(targetId = targetId,
                                                         comparatorId = comparatorId,
                                                         outcomeIds = outcomeIds,
@@ -179,4 +184,19 @@ getAllControls <- function(outputFolder) {
     allControls$targetEffectSize <- rep(1, nrow(allControls))
   }
   return(allControls)
+}
+
+#' @export
+getExcludedCovariateConcepts <- function() {
+  
+  csvFiles <- list.files(path = file.path(system.file(package = "PADManuscript"),
+                                          "settings", "excludedCovariateConcepts"), recursive = FALSE, full.names = TRUE)
+  
+  excludeConceptIds <- c()
+  for (csv in csvFiles) {
+    concepts <- read.csv(file = csv, header = TRUE, as.is = TRUE, stringsAsFactors = FALSE)
+    excludeConceptIds <- c(excludeConceptIds, concepts$CONCEPT_ID)
+  }
+  
+  excludeConceptIds
 }
